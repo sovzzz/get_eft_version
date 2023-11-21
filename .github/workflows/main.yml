@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch game version
         run: |
-          const { Site } = require('site-utils');
+          const Site = require('site-utils');
 
           async function fetchGameVersion() {
               let currentVersion = '';
